@@ -38,23 +38,11 @@ Install dependencies with pip:
 
     pip install pandas matplotlib mysql-connector-python requests
 
-Ensure the following before running:
-- MySQL server is running on localhost.
-- Database named `data_analysis_ergasia` is already created.
-- MySQL user `root` with password `28022002` is available.
-
-Setup Instructions
-------------------
-1. Clone the repository:
-
-    git clone https://github.com/your-repo/trade-analysis.git
-    cd trade-analysis
-
-2. Create the required database in MySQL:
+1. Create the required database in MySQL:
 
     CREATE DATABASE data_analysis_ergasia;
 
-3. Run the main script:
+2. Run the main script:
 
     python main.py
 
